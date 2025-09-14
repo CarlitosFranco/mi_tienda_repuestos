@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ProductList from "../components/ProductList";
-import "../style/Catalogo.css";
+import "../style/catalogo.css";
 
 const Catalogo = () => {
   const [cart, setCart] = useState([]);

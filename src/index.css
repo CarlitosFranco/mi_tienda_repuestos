@@ -1,0 +1,23 @@
+/* Asegurar que todos los elementos ocupen el 100% */
+* {
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Eliminar cualquier máximo ancho que pueda estar causando el espacio */
+.container {
+  max-width: none !important;
+  width: 100% !important;
+}
